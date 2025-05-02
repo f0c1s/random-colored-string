@@ -1,0 +1,42 @@
+{
+  "name": "@f0c1s/random-colored-string",
+  "version": "2025.05.0",
+  "description": "Colors text with random color in terminal.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/tsc --project tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f0c1s/random-colored-string.git"
+  },
+  "keywords": [
+    "random-colored-string",
+    "terminal",
+    "color",
+    "random color",
+    "rainbow"
+  ],
+  "author": "Anubhav Saini <iamanubhavsaini+git@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/f0c1s/random-colored-string/issues"
+  },
+  "homepage": "https://github.com/f0c1s/random-colored-string#readme",
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@f0c1s/color-black": "^2.0.0",
+    "@f0c1s/color-blue": "^2.0.0",
+    "@f0c1s/color-cyan": "^2.0.0",
+    "@f0c1s/color-green": "^2.0.0",
+    "@f0c1s/color-magenta": "^2.0.0",
+    "@f0c1s/color-red": "^2.0.0",
+    "@f0c1s/color-white": "^2.0.0",
+    "@f0c1s/color-yellow": "^2.0.0"
+  }
+}
