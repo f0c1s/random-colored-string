@@ -1,10 +1,22 @@
 {
   "name": "@f0c1s/random-colored-string",
-  "version": "2025.05.0",
+  "version": "2026.0.0",
   "description": "Colors text with random color in terminal.",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist/",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jasmine",
     "build": "./node_modules/.bin/tsc --project tsconfig.json"
   },
   "repository": {
@@ -26,7 +38,9 @@
   },
   "homepage": "https://github.com/f0c1s/random-colored-string#readme",
   "devDependencies": {
-    "@types/node": "^22.15.3",
+    "@types/jasmine": "^5.1.8",
+    "@types/node": "^22.15.17",
+    "jasmine": "^5.7.1",
     "typescript": "^5.8.3"
   },
   "dependencies": {
